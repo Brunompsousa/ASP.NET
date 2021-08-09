@@ -1,0 +1,126 @@
+﻿body {
+}
+
+.product_image {
+    width: 200px;
+    height: 200px;
+}
+
+.tablePromocoes {
+    width: 250px;
+    height: 150px;
+}
+
+/* Global CSS Values for Site */
+
+body {
+    color: black;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Lucida Grande", verdana, arial;
+}
+
+a {
+    color: Blue;
+}
+
+img {
+    border: 0px;
+}
+
+.std {
+    margin-top: 20px;
+}
+
+/* CSS Classes for the Site.Master Page */
+
+#top {
+    background-color: black;
+    padding: 5px;
+    font-size: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: White;
+}
+
+.ContentContainer {
+    margin-left: 10px;
+}
+
+#productmenu {
+    margin-top: 5px;
+    float: left;
+    width: 130px;
+}
+
+    #productmenu ul {
+        font-size: 80%;
+    }
+
+#maincontent {
+    float: left;
+    margin-left: 20px;
+    font-size: 80%;
+    width: 600px;
+}
+
+/* CSS classes for the top header of the products.aspx page */
+
+#ProductTitle {
+    text-align: center;
+}
+
+.MainProductContent {
+    float: left;
+    margin-right: 0px;
+}
+
+/* CSS classes for the DataList that provides the product listing */
+
+#product {
+    width: 350px;
+}
+
+.productimage {
+    width: 105px;
+    margin-left: 25px;
+    padding-right: 0px;
+    float: left;
+}
+
+.productdetails {
+    float: right;
+    width: 125px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.productaddbutton {
+    float: left;
+}
+
+/* CSS classes for the navigation menu at bottom of the page (Previous/More Products, etc) */
+
+.navigation {
+    width: 600px;
+    margin-top: 30px;
+}
+
+#leftnav {
+    float: left;
+    width: 180px;
+    text-align: center;
+}
+
+#rightnav {
+    float: right;
+    width: 180px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#numnav {
+    float: inherit;
+    text-align: center;
+}

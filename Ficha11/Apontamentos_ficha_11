@@ -1,0 +1,46 @@
+validation gruop
+controltovalidade
+
+textmode = tipo de dados
+
+o butao tem de pertencer ao grupo tb
+
+text  - aparece quando verificamos o grupo
+
+errormsg aparece quando fazemos o resumo dos erros
+
+controltotalidade = textbox que queremos
+
+forecolor
+
+max value
+min value
+
+setfocus
+
+type - tipo de dados a validar
+
+textmode data (ficha 11)
+
+max length associado a textbox
+
+validationexpression "\d9"
+
+onservervalidade = "metodo do que queremos validar"
+
+
+arg.isvalid = false ou true
+
+
+previouspage.numassociado
+
+previouspagetype virtualpath"-/pagina de onde venho"
+
+if !postback
+    label do text = previouspage.numeroassociado.
+    
+    declarar uma privada e uma publica para dps poder aceder da outra pagina.
+    
+    
+if pagevalid
+server.transfer("pagina que queremos ir")

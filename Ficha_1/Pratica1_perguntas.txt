@@ -1,0 +1,7 @@
+1. 
+As tags comecam por <asp:> e têm uma propriedade <runat="server">
+
+2.
+O browser abre uma pagina em branco e nao carrega qualquer conteudo.
+
+	

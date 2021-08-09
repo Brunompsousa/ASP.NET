@@ -1,0 +1,4 @@
+10_pergunta_1
+
+O estilo definido no ponto 10, altera a cor do atalho do link!
+

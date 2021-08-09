@@ -1,0 +1,313 @@
+
+.TabelaPrincipal {
+	BACKGROUND-COLOR: #ffffff;
+	WIDTH: 100%;
+}
+
+.BarraTopo {
+	BACKGROUND-COLOR: #b5b5b5;
+	HEIGHT: 41px;
+}
+
+.BarraMenu {
+	BACKGROUND-COLOR: #003084;
+	HEIGHT: 20px;
+}
+
+.BarraTituloSistema {
+	BACKGROUND-COLOR: #005daa;
+	HEIGHT: 20px;
+}
+
+.BordaMenu {
+	BACKGROUND-COLOR: #003084;
+}
+
+.BarraTituloTela {
+	BACKGROUND-COLOR: #efefef;
+	HEIGHT: 20px;
+}
+
+.FundoCabecalho {
+	BACKGROUND-COLOR: #ffffff;
+}
+
+.FundoConteudo {
+	BACKGROUND-COLOR: #ffffff;
+}
+
+.FundoInverte {
+	BACKGROUND-COLOR: #eeeeee;
+}
+
+.TituloSistema {
+	COLOR: #FFFFFF;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Tahoma, Verdana;
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+}
+
+.TituloTela {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma, Verdana;
+	PADDING-LEFT: 5px;
+	COLOR: #666666; 
+	HEIGHT: 20px;
+}
+
+.TituloBloco {
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Tahoma, Verdana;
+	COLOR: #9297A2; 
+	COLOR: #666666; 
+	BACKGROUND-COLOR: #D1D8E6;
+	HEIGHT: 20px;
+	text-align:center;
+}
+
+.NomeUsuario {
+	PADDING-RIGHT: 5px;
+	COLOR: #666666;
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma, Verdana;
+}
+
+.ItemMenuSuperior {
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+	COLOR: #000000;
+	FONT-SIZE: 9px;
+	FONT-FAMILY: Tahoma, Verdana;
+	BACKGROUND-COLOR: #b5b5b5;
+}
+
+.ItemMenuSuperior_Selecionado {
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+	COLOR: #000000;
+	FONT-SIZE: 9px;
+	FONT-FAMILY: Tahoma, Verdana;
+	FONT-WEIGHT: bold;
+	BACKGROUND-COLOR: #b5b5b5;
+}
+
+.ItemMenu {
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+	COLOR: #ffffff;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Tahoma, Verdana;
+	BACKGROUND-COLOR: #003084;
+}
+
+.ItemMenu_Selecionado
+{
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+	COLOR: #ffffff;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Tahoma, Verdana;
+	FONT-WEIGHT: bold;
+	BACKGROUND-COLOR: #005daa;
+}
+
+.TabelaItemMenu
+{
+	overflow: auto;
+	POSITION: ABSOLUTE;
+}
+
+.TabelaScroll
+{
+	overflow: auto;
+}
+
+.DataHora {
+	FONT-SIZE: 10px; 
+	FONT-FAMILY: Tahoma, Verdana;
+	COLOR: #ffffff; 
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+}
+
+.LabelCabecalho {
+	FONT-SIZE: 11px; 
+	FONT-WEIGHT: bold;
+	FONT-FAMILY: Tahoma, Verdana;
+	COLOR: #666666;
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+}
+
+.Label {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma, Verdana;
+	COLOR: #000000;
+	HEIGHT: 16px;
+}
+
+.ConteudoCabecalho {
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma, Verdana;
+	COLOR: #666666;
+	PADDING-RIGHT: 5px;
+	PADDING-LEFT: 5px;
+}
+
+.Conteudo {
+	COLOR: #000000; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma, Verdana;
+	HEIGHT: 16px;
+}
+
+.ConteudoVermelho {
+	COLOR: #FF0000; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma, Verdana;
+	HEIGHT: 16px;
+}
+
+.ConteudoAzul {
+	COLOR: #0000FF; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma, Verdana;
+	HEIGHT: 16px;
+}
+
+.dados {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif
+}
+
+.BotaoImagem {
+	MARGIN-LEFT: 3px;
+}
+
+.AbaSelecionada
+{
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 11px; 
+	COLOR: #666666; 
+	FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif;
+	BORDER-TOP: #666666 1px solid;
+	BORDER-LEFT: #666666 1px solid;
+	BORDER-RIGHT: #666666 1px solid;
+	BACKGROUND-COLOR: #efefef;
+	HEIGHT: 20px;
+}
+
+.AbaNaoSelecionada
+{
+	FONT-SIZE: 8pt; 
+	COLOR: #666666;
+	FONT-FAMILY: Verdana, arial, Helvetica, sans-serif;
+	BORDER-BOTTOM: #666666 1px solid;
+	BORDER-TOP: #666666 1px solid;
+	BORDER-LEFT: #666666 1px solid;
+	BORDER-RIGHT: #666666 1px solid;
+	BACKGROUND-COLOR: #b5b5b5;
+	CURSOR: HAND;
+}
+
+.AbaNaoSelecionadaDesabilitada
+{
+	FONT-SIZE: 8pt; 
+	COLOR: #999999; 
+	FONT-FAMILY: Verdana, arial, Helvetica, sans-serif;
+	BORDER-BOTTOM: #666666 1px solid;
+	BORDER-TOP: #666666 1px solid;
+	BORDER-LEFT: #666666 1px solid;
+	BORDER-RIGHT: #666666 1px solid;
+	BACKGROUND-COLOR: #b5b5b5;
+}
+
+.AbaBranca
+{
+	BORDER-BOTTOM: #666666 1px solid;
+}
+
+.TabelaExternaAba
+{
+	BORDER-BOTTOM: #666666 1px solid;
+	BORDER-LEFT: #666666 1px solid;
+	BORDER-RIGHT: #666666 1px solid;
+	BACKGROUND-COLOR: #efefef;
+}
+
+.TabelaInternaAba
+{
+	BORDER-TOp: #666666 1px solid;
+	BORDER-BOTTOM: #666666 1px solid;
+	BORDER-LEFT: #666666 1px solid;
+	BORDER-RIGHT: #666666 1px solid;
+	BACKGROUND-COLOR: #ffffff;
+	width:80%;
+}
+
+.Link {
+	COLOR: #000000; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma, Verdana;
+	HEIGHT: 16px;
+	text-decoration:underline;
+}
+
+.LinkFuncao {
+	COLOR: #003084; 
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Tahoma, Verdana;
+	HEIGHT: 16px;
+	text-decoration:underline;
+	PADDING-BOTTOM: 5px;
+	PADDING-TOP: 3px;
+	CURSOR: HAND;
+}
+
+.MicroHelp {
+	FONT-SIZE: 10px; 
+	FONT-FAMILY: Tahoma, Verdana;
+	BORDER-TOp: #000000 1px solid;
+	BORDER-BOTTOM: #000000 1px solid;
+	BORDER-LEFT: #000000 1px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BACKGROUND-COLOR: #ffffcc;
+	overflow: auto;
+	POSITION: ABSOLUTE;
+}
+
+.JanelaDialogo {
+	BORDER-TOp: #000000 1px solid;
+	BORDER-BOTTOM: #000000 1px solid;
+	BORDER-LEFT: #000000 1px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BACKGROUND-COLOR: #ffffff;
+	overflow: auto;
+	POSITION: ABSOLUTE;
+}
+
+.CampoBuscar {
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 10px; 
+	FONT-FAMILY: Tahoma, Verdana, arial, Helvetica, sans-serif;
+	BORDER: solid 1px;
+}
+
+.BordaCinzaBottom
+{
+	border-bottom: solid 1px #666666;
+}
+
+.abaOff{
+	BORDER-BOTTOM: #666666 1px solid; 
+}
